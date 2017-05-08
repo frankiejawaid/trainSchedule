@@ -72,6 +72,14 @@ $('#submit').on('click', function(){
 	console.log(firstTrain);
 	console.log(frequency);
 
+	// Clear button event
+	$("#clear").on("click", function() {
+
+	// Clear database
+	database.ref().remove();
+	// Clear document table
+	$("#train-table").html("");
+})	
 	//Train time Equations
 
 	// First Time (pushed back 1 year to make sure it comes before current time)
