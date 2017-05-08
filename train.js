@@ -1,9 +1,9 @@
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyAmD3gB6vb2GqBFBe6Tob6V1xmk8eSBc5E",
-    authDomain: "train-frankie.firebaseapp.com",
-    databaseURL: "https://train-frankie.firebaseio.com",
-    storageBucket: "train-frankie"
+    apiKey: "AIzaSyBt97ejV_Mv0puzoahQ1mCx3Axuv_WqO84",
+    authDomain: "train-time-e8c82.firebaseapp.com",
+    databaseURL: "https://train-time-e8c82.firebaseio.com",
+    storageBucket: "train-time-e8c82"
 
 };
 firebase.initializeApp(config);
