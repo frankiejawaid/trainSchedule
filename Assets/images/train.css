@@ -1,0 +1,19 @@
+body {
+	font-family: Courier, monospace;
+	font-weight: 200;
+    width: 100%;
+    height: 100%;
+    /*background-image: url("https://raw.githubusercontent.com/kaylaludmila/trainSchedule/master/assets/images/cloud-background.jpg");
+		background-repeat: no-repeat;*/
+}
+
+.jumbotron {
+	font-family: courier, monospace;
+	background-image: url("http://wallpaper-gallery.net/images/railway/railway-13.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: teal;
+	color:white;
+	text-align: left;
+}
