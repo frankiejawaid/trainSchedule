@@ -56,6 +56,16 @@ $('#addATrain').on('click', function(event){
 
 });
 
+// Clear button event
+$("#clear").on("click", function() {
+
+	// Clear database
+	database.ref().remove();
+	// Clear document table
+	$("#train-table").html("");
+
+}); // Close add button event
+
 //Create Firebase event for adding train to the database
 database.ref().on('child_added', function(childSnapshot) {
 
