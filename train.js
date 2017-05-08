@@ -1,4 +1,3 @@
-
 // Initialize Firebase
 var config = {
     apiKey: "AIzaSyAmD3gB6vb2GqBFBe6Tob6V1xmk8eSBc5E",
@@ -73,12 +72,6 @@ database.ref().on('child_added', function(childSnapshot) {
     console.log(destination);
     console.log(firstTrain);
     console.log(frequency);
-	
-    // Clear database
-    database.ref().remove();
-	// Clear document table
-	$("#train-table").html("");
-})
 
     //Train time Equations
 
